@@ -1,5 +1,8 @@
 # Notes Application
 
+## Demo
+
+[Check out the live demo](https://notes-one-sigma.vercel.app)
 ## Features
 
 - Create new notes with customizable colors.

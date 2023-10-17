@@ -1,0 +1,27 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.color-container{
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    height: 0;
+    transition: all 0.45s ease;
+}
+
+.color-container_active{
+    height: 300px;
+}
+
+li{
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}

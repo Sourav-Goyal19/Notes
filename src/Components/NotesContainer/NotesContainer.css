@@ -1,0 +1,38 @@
+.notes-container{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    overflow-y: scroll;
+    gap: 20px;
+}
+
+.custom-scroll::-webkit-scrollbar{
+    width: 5px;
+}
+
+.custom-scroll::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: lightgray;
+    transition: all 0.45s ease;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover{
+    background-color: gray;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container h2{
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
